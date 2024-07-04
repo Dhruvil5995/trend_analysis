@@ -55,10 +55,10 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 
   The application will be available at http://127.0.0.1:8000.
 
- 2. **Test the API:**
+2. **Test the API:**
 
-   ```sh
-    python test_api.py
+       ```sh
+          python test_api.py
 
 You can also use curl:
 
