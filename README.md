@@ -30,21 +30,16 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 
    ```sh
      pip install -r requirements.txt
-
-
-
+   
 3. **Generate an API key:**
 
    ```sh
    python apikey.py
-
-
-
+   
 4. **Train the model:**
 
    ```sh
     python trainmodel.py
-
 
 ### Running the Application
 
@@ -57,10 +52,10 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 
 2. **Test the API:**
 
-       ```sh
-          python test_api.py
+    ```sh
+      python test_api.py
 
-You can also use curl:
+### You can also use curl:
 
      ```sh
          curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -H "access_token: b114ab40287f7431b0a0523f98ae47b1" -d "{\"periods\": 365}"
