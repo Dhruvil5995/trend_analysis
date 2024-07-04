@@ -36,14 +36,14 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 3. **Generate an API key:**
 
    ```sh
-  python apikey.py
+   python apikey.py
 
 
 
 4. **Train the model:**
 
    ```sh
-   python trainmodel.py
+    python trainmodel.py
 
 
 ### Running the Application
