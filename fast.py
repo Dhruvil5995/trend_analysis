@@ -5,7 +5,7 @@ import pandas as pd
 import joblib
 from prophet import Prophet
 
-API_KEY = "b114ab40287f7431b0a0523f98ae47b1"  # Replace with your API key
+API_KEY = " ********* "  # Replace with your API key
 API_KEY_NAME = "access_token"
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
 
