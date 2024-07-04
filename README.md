@@ -4,7 +4,7 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 
 ## Project Structure
 
-- `trainmodel.py`: Script to train the model and save it using joblib.
+- `trainmodel.py`: Script to train and save the model using joblib.
 - `main1.py`: Script to load the model and visualize the predictions.
 - `fast.py`: FastAPI application with an endpoint to predict future sales.
 - `test_api.py`: Script to test the API using the `requests` library.
@@ -60,11 +60,10 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
    ```sh
     python test_api.py
 
+You can also use curl:
 
-##### You can also use curl:
-
-```sh
-  curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -H "access_token: b114ab40287f7431b0a0523f98ae47b1" -d "{\"periods\": 365}"
+  ```sh
+   curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -H "access_token: b114ab40287f7431b0a0523f98ae47b1" -d "{\"periods\": 365}"
 
 
 ## Project Files
