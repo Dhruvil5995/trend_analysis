@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from prophet import Prophet
 
 
-loaded_model = joblib.load("E:\\task1\\prophet.pkl")
+loaded_model = joblib.load("your_path")
 
 
 # Make future predictions using the loaded model
