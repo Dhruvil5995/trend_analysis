@@ -29,7 +29,7 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 2. **Install the dependencies:**
 
    ```sh
-  pip install -r requirements.txt
+     pip install -r requirements.txt
 
 
 
