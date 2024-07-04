@@ -12,7 +12,7 @@ payload = {
 # Set the headers
 headers = {
     "Content-Type": "application/json",
-    "access_token": "b114ab40287f7431b0a0523f98ae47b1"
+    "access_token": " ********** " #replace with your API key
 }
 
 # Send the POST request
@@ -29,4 +29,4 @@ else:
     print("Response JSON:", response.text)
 
 
-#curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -H "access_token: b114ab40287f7431b0a0523f98ae47b1" -d "{\"periods\": 365}"
+
