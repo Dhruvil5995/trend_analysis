@@ -62,19 +62,36 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 
 You can also use curl:
 
-  ```sh
-   curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -H "access_token: b114ab40287f7431b0a0523f98ae47b1" -d "{\"periods\": 365}"
+     ```sh
+         curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -H "access_token: b114ab40287f7431b0a0523f98ae47b1" -d "{\"periods\": 365}"
 
 
 ## Project Files
-trainmodel.py
-This script reads the customer shopping data, processes it, and trains a Prophet model to predict future sales. The trained model is saved using joblib.
 
-main1.py
-This script loads the pre-trained model and uses it to make future predictions, which are then visualized using matplotlib.
+### trainmodel.py
+**This script reads the customer shopping data, processes it, and trains a Prophet model to predict future sales. The trained model is saved using joblib.**
 
-fast.py
-This FastAPI application provides an endpoint to predict future sales. The endpoint is secured with an API key.
+### main1.py
+**This script loads the pre-trained model and uses it to make future predictions, which are then visualized using matplotlib.**
+
+
+![Figure_1](https://github.com/Dhruvil5995/trend_analysis/assets/64741151/ecc0ae90-72d2-4f02-9981-42c54a6036dc)
+
+![Figure_2](https://github.com/Dhruvil5995/trend_analysis/assets/64741151/3e000003-cda5-467b-9452-4dd48c65f36c)
+
+
+
+### fast.py
+**This FastAPI application provides an endpoint to predict future sales. The endpoint is secured with an API key.**
+
+
+### test_api.py
+**This script tests the /predict endpoint of the FastAPI application using the requests library.**
+
+### Results
+**When you run the main1.py script, you will see visualizations of the forecasted sales data. The /predict endpoint will provide future sales predictions in JSON format.**
+
+
 
 
 
