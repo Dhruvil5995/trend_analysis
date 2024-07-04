@@ -63,10 +63,10 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 
 ## Project Files
 
-### trainmodel.py
+### [1] trainmodel.py
 **This script reads the customer shopping data, processes it, and trains a Prophet model to predict future sales. The trained model is saved using joblib.**
 
-### main1.py
+### [2] main1.py
 **This script loads the pre-trained model and uses it to make future predictions, which are then visualized using matplotlib.**
 
 
@@ -76,11 +76,11 @@ This project provides a sales forecasting API using FastAPI, Prophet for time se
 
 
 
-### fast.py
+### [3] fast.py
 **This FastAPI application provides an endpoint to predict future sales. The endpoint is secured with an API key.**
 
 
-### test_api.py
+### [4] test_api.py
 **This script tests the /predict endpoint of the FastAPI application using the requests library.**
 
 ### Results
